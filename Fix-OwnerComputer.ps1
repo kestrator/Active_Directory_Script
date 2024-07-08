@@ -7,7 +7,7 @@
     You can specify: List to list computers objects where owner is not Domain Admins or Fix to replace owner by Domain Admins
 
 .PARAMETER List
-	To list omputers objects where owner is not Domain Admins
+	To list computers objects where owner is not Domain Admins
 
 .PARAMETER Fix
     To replace owner by Domain Admins
@@ -41,6 +41,7 @@ Param(
 [Parameter(Mandatory=$false,HelpMessage="Fix Owner")]
 [Switch]$fix
 )
+
 $domain = Get-ADDomain
 $Name = $domain.NetBIOSName
 $SID = $domain.DomainSID

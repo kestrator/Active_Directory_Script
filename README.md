@@ -19,4 +19,27 @@ Fix-OwnerComputer.ps1 -Fix
 ```
 ![alt tag](Images/Fix-OwnerComputer-Fix.png)
 
+Get-AzureADGroupEmpty.ps1
+===================
+
+Get-AzureADGroupEmpty.ps1 can list sync and cloud groups empty in Microsoft Entra.
+
+For each group without members, It will then retrieve the name group.
+
+
+##Examples
+Using the script to list synced groups without members:
+```PowerShell
+Get-AzureADGroupEmpty.ps1 -ListSync
+```
+
+Using the script to list Cloud groups without members:
+```PowerShell
+Get-AzureADGroupEmpty.ps1 -ListCloud
+```
+
+Using the script to Remove synced groups without members:
+```PowerShell
+Get-AzureADGroupEmpty.ps1 -Remove
+```
 
