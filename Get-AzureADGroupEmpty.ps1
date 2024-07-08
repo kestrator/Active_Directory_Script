@@ -73,7 +73,7 @@ if($ListSync){
         $result
     }
     Else{
-        Write-Warning "No empty Cloud groups"
+        Write-Warning "No empty Sync groups"
     }
     $result = @()
 }
@@ -114,7 +114,7 @@ if($Remove){
         }
     }
     Else {
-        Write-Warning "No empty Sync groups"
+        Write-Warning "No empty Cloud groups"
     }
 }
 
