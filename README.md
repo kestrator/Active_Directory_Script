@@ -19,10 +19,11 @@ Fix-OwnerComputer.ps1 -Fix
 ```
 ![alt tag](Images/Fix-OwnerComputer-Fix.png)
 
+
 Get-AzureADGroupEmpty.ps1
 ===================
 
-Get-AzureADGroupEmpty.ps1 can list sync and cloud groups empty in Microsoft Entra.
+Get-AzureADGroupEmpty.ps1 can list empty sync and cloud groups in Microsoft Entra.
 
 For each group without members, It will then retrieve the name group.
 
