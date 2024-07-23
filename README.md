@@ -4,7 +4,7 @@ Create-PingCastleReport.ps1
 Create-PingCastleReport.ps1 script launches the PingCastle analysis with the default parameters and sends the report by mail.
 
 ***To use this script you must configure these variables :***
-- **$domain** line 32 with domain name "contoso.com"
+- **$domains** line 32 with domain name "contoso.com"
 - **$PSScriptRoot** line 34 with script path "c:\scripts\
 - **$SmtpServer** line 166 with ip address or SMTP name server "10.2.3.1" or "smtp.contoso.com"
 - **$EmailFrom** line 167 with sender address "report@contoso.com"
